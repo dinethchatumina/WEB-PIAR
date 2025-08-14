@@ -160,7 +160,7 @@ const reply = (teks) => {
             isForwarded: true,
             externalAdReply: {
             // මේ ටිකම හදාගන්න 
-                title: `𝗤𝗨𝗘𝗘𝗡 𝗨𝗗𝗠𝗢𝗗𝗭`, 
+                title: `𝗤𝗨𝗘𝗘𝗡 chatuwa`, 
                 body: `The Best Multi Device Whatsapp Bot.`,
                 thumbnailUrl: `https://files.catbox.moe/bf5iea.jpg`,
                 mediaType: 1,
@@ -309,7 +309,7 @@ const app = express();
 const port = process.env.PORT || 8000;
 
 app.get("/", (req, res) => {
-    res.send("hey, UDMODZ started✅");
+    res.send("hey, chatuwa started✅");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
