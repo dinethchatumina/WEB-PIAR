@@ -23,7 +23,7 @@ const { cmd } = require('./command');
 const prefix = '.';
 const ownerNumber = ['94765342804']; // ඔයාගේ no එක දාන්න 🙄
 
-async function connectToWhatsApp("94765342804") {
+async function connectToWhatsApp() {
     
     const authDir = __dirname + '/auth_info_baileys';
     if (!fs.existsSync(authDir)) {
