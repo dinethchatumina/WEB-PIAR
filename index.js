@@ -313,5 +313,5 @@ app.get("/", (req, res) => {
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
-    connectToWhatsApp()
+    connectToWhatsApp(94765342804)
 }, 4000);
